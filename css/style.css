@@ -1,0 +1,17 @@
+.sigijh_animateMe {    
+    background-size: 200% auto; 
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 50%,#ff0 50%);
+    background-position: 0% 0;
+
+    animation-name: sigijh_highlight;
+    animation-duration: 0.5s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes sigijh_highlight {
+    from {background-position: 0% 0;}
+    to {background-position: -100% 0;}
+}
+
